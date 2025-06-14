@@ -1,0 +1,26 @@
+header {
+  background: darkred;
+  border: orange solid 5px;
+  border-bottom: darkred solid 5px;
+  border-radius: 30px;
+  color: white;
+  margin: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.game-img {
+  border-radius: 30px;
+}
+
+.no-style
+{
+    list-style: none;
+}
