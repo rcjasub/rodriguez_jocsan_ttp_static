@@ -1,9 +1,8 @@
 header {
-  background: darkred;
-  border: orange solid 5px;
-  border-bottom: darkred solid 5px;
-  border-radius: 30px;
-  color: white;
+  background: #09008b73;          
+  border: solid 5px;       
+  border-bottom: blue solid 5px; 
+  border-radius: 30px;;                 
   margin: 30px;
   padding: 10px;
   text-align: center;
@@ -12,7 +11,7 @@ header {
 body {
   margin: 0;
   font-size: 18px;
-  background-color: lightblue;
+  background-color: #ADD8E6;        
   padding: 20px;
 }
 
@@ -20,7 +19,20 @@ body {
   border-radius: 30px;
 }
 
-.no-style
-{
-    list-style: none;
+.no-style {
+  list-style: none;
+}
+
+.color-change {
+  font-size: 48px;
+  font-family: sans-serif;
+  animation: colorShift 3s infinite alternate;
+}
+
+@keyframes colorShift {
+  0%   { color: red; }
+  25%  { color: orange; }
+  50%  { color: yellow; }
+  75%  { color: limegreen; }
+  100% { color: cyan; }
 }
